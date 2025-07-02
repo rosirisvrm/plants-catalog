@@ -6,10 +6,10 @@ interface Props{
 }
 ---
 <div class="bg-[#B6DB9F] p-8 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300 flex flex-col justify-between">
-    <img alt="Plant image" class="w-full h-64 object-cover rounded-md mb-4 bg-white" 
-        src={Astro.props.plant.imageUrl || ''}
-    />
     <div class="flex flex-col">
+        <img alt="Plant image" class="w-full h-64 object-cover rounded-md mb-4 bg-white" 
+            src={Astro.props.plant.imageUrl || ''}
+        />
         <h3 class="text-xl font-semibold text-emerald-700 mb-4">{Astro.props.plant.scientificName || ''}</h3>
         <p class="text-gray-600 mb-8 text-sm">{Astro.props.plant.morphology.generalDescription || ''}</p>
     </div>
