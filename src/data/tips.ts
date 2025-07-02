@@ -31,9 +31,9 @@ export const tips: Tip[] = [
     title: "Bajo costo de mantenimiento",
     text: "No requieren altos insumos para prosperar, por lo que son ideales para sistemas agrícolas sustentables o de pequeña escala."
   },
-  {
-    icon: "📚",
-    title: "Importancia educativa",
-    text: "Permiten integrar conocimientos de botánica, zootecnia, ecología y desarrollo rural en una sola experiencia de aprendizaje."
-  }
+  // {
+  //   icon: "📚",
+  //   title: "Importancia educativa",
+  //   text: "Permiten integrar conocimientos de botánica, zootecnia, ecología y desarrollo rural en una sola experiencia de aprendizaje."
+  // }
 ];
