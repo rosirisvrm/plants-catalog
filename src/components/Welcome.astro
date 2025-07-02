@@ -1,164 +1,22 @@
 ---
-
+import Header from "./Header.astro"
+import Home from './Home.astro'
+import Plants from './Plants.astro'
+import Tips from './Tips.astro'
+import Phrase from './Phrase.astro'
+import Footer from './Footer.astro'
 ---
 
-<div class="bg-emerald-600 text-white text-sm text-center py-2">
-        Free US shipping on order $80+
-    </div>
-<header class="bg-white shadow-sm">
-<div class="container mx-auto px-4 py-4 flex justify-between items-center">
-<div class="flex items-center">
-<div class="w-10 h-10 bg-emerald-500 rounded-full mr-3 flex items-center justify-center">
-<span class="material-icons text-white">eco</span>
-</div>
-<span class="text-xl font-semibold text-emerald-700 font-lora">Plantify</span>
-</div>
-<nav class="hidden md:flex space-x-6 text-gray-600">
-<a class="hover:text-emerald-600" href="#home">Home</a>
-<a class="hover:text-emerald-600" href="#plants">Plants</a>
-<a class="hover:text-emerald-600" href="#care">Care</a>
-<a class="hover:text-emerald-600" href="#about">About</a>
-</nav>
-<div class="flex items-center space-x-4">
-<a class="text-gray-600 hover:text-emerald-600" href="#">Support</a>
-<a class="text-gray-600 hover:text-emerald-600" href="#">
-<span class="material-icons">person_outline</span>
-</a>
-<a class="text-gray-600 hover:text-emerald-600" href="#">
-<span class="material-icons">shopping_bag_outline</span>
-</a>
-</div>
-</div>
-</header>
+<Header />
+
 <main id="home">
-<section class="relative bg-gray-100 py-10 md:py-20 lg:py-32">
-<div class="absolute inset-0">
-<img alt="Various potted plants on shelves and a light background" class="w-full h-full object-cover opacity-30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2y6qL7RBTderVPu3J6_iKmViZa5oWHHbLenZjf_TwNdyoehaxpIZkZ9gBlVtkzpfhv9An9SPWvgMFtLup_Cjt7NKCwJwI6-CtpmsJhpQC2MGnVU9stB9XKwbBxmy2TMiBDhCHHAu7Q2U75rsz29zhMqGnVf9LAQ7DJl4N7oUv39q025Qul97cCOG-rPa0mk9FaghJ2h-jBoWlfKGYrIhakkVTfDxGnYW7vpYDupDURF1HqB1LtT3TBpsv90AqdhnebjtuVBje"/>
-</div>
-<div class="container mx-auto px-4 relative z-10 flex flex-col items-start">
-<div class="max-w-xl text-left">
-<h1 class="text-5xl md:text-6xl lg:text-7xl font-lora text-emerald-800 mb-8 leading-tight">
-                        Step inside, for comfort and magic await you.
-                    </h1>
-<a class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-8 rounded-md text-lg transition duration-300" href="#plants">
-                        Shop Now
-                    </a>
-</div>
-</div>
-<div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-<button class="w-3 h-3 bg-emerald-700 rounded-full focus:outline-none"></button>
-<button class="w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full focus:outline-none"></button>
-<button class="w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full focus:outline-none"></button>
-<button class="w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full focus:outline-none"></button>
-<button class="w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full focus:outline-none"></button>
-</div>
-</section>
-<section class="py-16 bg-white" id="plants">
-<div class="container mx-auto px-4">
-<h2 class="text-3xl font-lora text-emerald-700 text-center mb-12">Our Plant Collection</h2>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-<div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-<img alt="A lush green fern in a pot" class="w-full h-64 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsmExDB_D_n3Sxzs7aSJ1Hc2ivWOPDpiBtRv-aDdqAz3aQlnu3_kKakchzKZJD_nsLaLZImbmrvOj2C0xMSoQ1XHnnKfG6doVh52DcWIrLF8qwDklS9fVv0vK2W22dwirllMlu5sBnJrUKdlFNqXPukFQDk0BoVHCy7NU9-mES5hJyyh5SwMWp3qeSJ9SuJ-fbvDfRLJIOlPzoufMRy4micEf8oiWQetPxTvQKBn7MrfEsKz4Qhta8KbH8TLR1WeWdtwytoF88"/>
-<h3 class="text-xl font-semibold text-emerald-700 mb-2">Fern Paradise</h3>
-<p class="text-gray-600 mb-4">Thrives in indirect light and humid environments.</p>
-<span class="text-emerald-600 font-bold text-lg">$25.00</span>
-</div>
-<div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-<img alt="A vibrant monstera deliciosa plant" class="w-full h-64 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPvt2kMTV93vzDwnpLQGBa8K3MOcJooJKWDsKMiJ6xVR3m466LmKuvVWiSppvnfDMm7Pq4ZMv-MpT5x2YC3QmS8OkMdeEVkAFW22RURS3fDbzzdVbiZS-9RkC1caJhXPKhib_x9JlBy90rKcqjVsyXUggFotrcVyk5VkvDBzw1HlGirUu35RdeqvuaWtyUTfKPg23whOechk3pQuKIZgOCn2jXxuT8FJlZCNe2-JzBXwqY4sPP9occ2ov_Tn5S627pHif8hPGF"/>
-<h3 class="text-xl font-semibold text-emerald-700 mb-2">Monstera Magic</h3>
-<p class="text-gray-600 mb-4">Famous for its unique, fenestrated leaves.</p>
-<span class="text-emerald-600 font-bold text-lg">$35.00</span>
-</div>
-<div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-<img alt="A collection of small succulent plants" class="w-full h-64 object-cover rounded-md mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeNToiP_MFcvmATsZAzysAA3rwz_zo2DRX8JD7JrBtNzTVMhUaeo5spJo1JhCUMQ37UbgBA1Nkgdlu4RlYi916vFVdcpyYOT5muV0NxwfA3c30_RLuvL5F0D7LEWbCV6XlrOZn1VU6V9bu_UgrQeYu3i2upzHWPwN0Oyu71dLylUIEYKa-jHRYk8Ht0LL90dyw2Ack2j8FFbkIoljui3J6szltvN_RaY-8SWCWqxB8vO0SJ111oz3InW6aXozgMmlEW7DLweMy"/>
-<h3 class="text-xl font-semibold text-emerald-700 mb-2">Succulent Garden</h3>
-<p class="text-gray-600 mb-4">Low maintenance, perfect for sunny spots.</p>
-<span class="text-emerald-600 font-bold text-lg">$15.00</span>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 bg-emerald-50" id="care">
-<div class="container mx-auto px-4">
-<h2 class="text-3xl font-lora text-emerald-700 text-center mb-12">Plant Care Tips</h2>
-<div class="grid md:grid-cols-2 gap-8 items-center">
-<div>
-<img alt="Hands watering a small plant" class="rounded-lg shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk_2zhzopUrfDLVbrdKPoLVW0f5z_A_QD4xQoK5p3_SrbYZLZe6mXFrdrnxwKMhPESICNUoCRtOG3D0AfKQJ544kQEeD1dKvjGVU14kGaZ0Cut2sct9qnwYDOZNR0L-fsQZAoy1zMe32YMtbfH8JZp7O4hFmDKsOEFIDJ3Gcs32wa-rHgqojrlhGWymqMZS1yZshAqBAW-FcDQYZgSZD-uN3Ml2VdYraKCshAwHJUhrQ1qb_QQuZiGrUuo3JTwBBvEjsq3Dsxq"/>
-</div>
-<div class="space-y-6">
-<div class="flex items-start">
-<span class="material-icons text-emerald-600 text-3xl mr-4">water_drop</span>
-<div>
-<h4 class="text-xl font-semibold text-emerald-700 mb-1">Watering Guide</h4>
-<p class="text-gray-600">Understand the specific watering needs of your plants. Overwatering is a common mistake!</p>
-</div>
-</div>
-<div class="flex items-start">
-<span class="material-icons text-emerald-600 text-3xl mr-4">light_mode</span>
-<div>
-<h4 class="text-xl font-semibold text-emerald-700 mb-1">Light Requirements</h4>
-<p class="text-gray-600">Different plants need different amounts of light. Find the perfect spot for each.</p>
-</div>
-</div>
-<div class="flex items-start">
-<span class="material-icons text-emerald-600 text-3xl mr-4">eco</span>
-<div>
-<h4 class="text-xl font-semibold text-emerald-700 mb-1">Soil &amp; Nutrients</h4>
-<p class="text-gray-600">Use the right soil mix and consider occasional fertilizing for healthy growth.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 bg-white" id="about">
-<div class="container mx-auto px-4 text-center">
-<h2 class="text-3xl font-lora text-emerald-700 mb-8">About Plantify</h2>
-<p class="text-gray-700 max-w-2xl mx-auto leading-relaxed mb-6">
-                    At Plantify, we believe that plants bring joy, tranquility, and a touch of nature's magic into every home. We are passionate about sourcing the healthiest, most beautiful plants and providing you with all the knowledge you need to help them thrive. Our mission is to make plant parenthood accessible and enjoyable for everyone.
-                </p>
-<a class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-8 rounded-md text-lg transition duration-300" href="#">
-                    Learn More
-                </a>
-</div>
-</section>
+    <Home />
+    <Plants />
+    <Tips />
+    <Phrase />
 </main>
-<footer class="bg-emerald-700 text-emerald-100 py-12">
-<div class="container mx-auto px-4">
-<div class="grid md:grid-cols-3 gap-8">
-<div>
-<h5 class="text-xl font-semibold mb-4 font-lora text-white">Plantify</h5>
-<p class="text-sm">Bringing nature closer to you, one plant at a time.</p>
-</div>
-<div>
-<h5 class="text-lg font-semibold mb-4 text-white">Quick Links</h5>
-<ul class="space-y-2 text-sm">
-<li><a class="hover:text-white" href="#home">Home</a></li>
-<li><a class="hover:text-white" href="#plants">Shop Plants</a></li>
-<li><a class="hover:text-white" href="#care">Care Guides</a></li>
-<li><a class="hover:text-white" href="#about">About Us</a></li>
-<li><a class="hover:text-white" href="#">Contact</a></li>
-</ul>
-</div>
-<div>
-<h5 class="text-lg font-semibold mb-4 text-white">Connect With Us</h5>
-<div class="flex space-x-4">
-<a class="text-emerald-100 hover:text-white" href="#"><span class="material-icons">facebook</span></a>
-<a class="text-emerald-100 hover:text-white" href="#"><span class="material-icons">camera_alt</span></a> 
-<a class="text-emerald-100 hover:text-white" href="#"><span class="material-icons">park</span></a> 
-</div>
-<p class="text-sm mt-4">Sign up for our newsletter for plant tips and new arrivals!</p>
-<form class="mt-2 flex">
-<input class="bg-emerald-600 text-white placeholder-emerald-300 px-3 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-emerald-400 flex-grow text-sm" placeholder="Your email" type="email"/>
-<button class="bg-emerald-500 hover:bg-emerald-400 text-white px-4 py-2 rounded-r-md text-sm" type="submit">Subscribe</button>
-</form>
-</div>
-</div>
-<div class="text-center text-emerald-300 text-sm mt-10 border-t border-emerald-600 pt-8">
-                © 2023 Plantify. All Rights Reserved.
-            </div>
-</div>
-</footer>
+
+<Footer />
 
 <style>
 
