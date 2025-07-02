@@ -195,7 +195,7 @@ export const plants: Plant[] = [
     "usedParts": ["Tallo"],
     "usage": "La caña de azúcar puede usarse entera como forraje verde y proporcionar un valioso forraje durante la temporada seca. El forraje se caña de azúcar se puede utilizar para pastorearse, cortarse para sistema de corte y acarreo o picarse directamente en el campo para su posterior uso verde o para ensilado.",
     "notes": "Existen variedades de caña de azúcar, algunas presentan un contenido muy alto de fibra, lo que podría resultar en un valor nutritivo muy variable para el ganado.",
-    "imageUrl": "8.jfif"
+    "imageUrl": "/8.jfif"
   },
   {
     "id": "zea-maiz",
@@ -215,7 +215,7 @@ export const plants: Plant[] = [
     "usedParts": ["Semilla (grano)"],
     "usage": "Para la alimentación humana y animal, y producción para creación de productos derivados del maíz como: la harina, aceite de maíz, maicena, etc.",
     "notes": "El maíz es una planta rica en almidón, proteínas, grasas y vitaminas (Del grupo B y C), y minerales como hierro, fosforo, magnesio y cobre.",
-    "imageUrl": "/9-.webp"
+    "imageUrl": "/9.webp"
   },
   {
     "id": "leucaena-leucocephala",

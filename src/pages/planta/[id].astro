@@ -1,0 +1,98 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { plants } from '../../data';
+
+export const prerender = false;
+
+const { id } = Astro.params;
+
+const plant = plants.find((p) => p.id === id)
+
+if(!plant) return Astro.redirect("/");
+
+---
+
+<Layout>
+    <div class="bg-[#DAF2E5] items-center justify-center min-h-screen p-4">
+
+        <div class="py-4 max-w-7xl mx-auto">
+            <a class="text-emerald-600 hover:text-emerald-700 font-bold text-lg cursor-pointer" href="/#plantas">
+                Volver
+            </a>
+        </div>
+
+        <div class="bg-[#B6DB9F] rounded-lg shadow-lg max-w-7xl w-full overflow-hidden mb-8 mx-auto">
+
+            <header class="bg-emerald-600 p-8">
+                <h1 class="text-2xl sm:text-4xl font-bold text-white text-center">
+                    {plant.scientificName || ''}
+                </h1>
+            </header>
+
+            <main class="md:flex mt-8">
+                <div class="md:w-1/2 p-6 flex justify-center">
+                    <div class="w-full max-w-lg">
+                        <div class="rounded-lg">
+                            <img 
+                                alt={`${plant.scientificName} image`} 
+                                class="relative rounded-lg shadow-md w-full" 
+                                src={plant.imageUrl}
+                            />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 p-6 space-y-6">
+                    <div class="space-y-3">
+                        <h3 class="text-xl font-semibold text-emerald-600">Descripción General</h3>
+                        <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
+                        {plant.morphology.generalDescription}
+                        </p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div>
+                        <h3 class="text-xl font-semibold text-emerald-600 mb-2">Nombres Comunes</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1 text-base sm:text-lg">
+                            {plant.commonNames.map((name) => (
+                            <li>{name}</li>
+                            ))}
+                        </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-emerald-600 mb-2">Información Taxonómica</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1 text-base sm:text-lg">
+                                <li><strong>Familia:</strong> {plant.taxonomy}</li>
+                                <li><strong>Origen:</strong> {plant.placeOfOrigin}</li>
+                                <li><strong>Partes utilizadas:</strong> {plant.usedParts.join(', ')}</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-emerald-600 mb-2">Morfología</h3>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1 text-base sm:text-lg">
+                                <li><strong>Hojas:</strong> {plant.morphology.leaves}</li>
+                                <li><strong>Tallo:</strong> {plant.morphology.stem}</li>
+                                <li><strong>Raíz:</strong> {plant.morphology.root}</li>
+                                <li><strong>Inflorescencia:</strong> {plant.morphology.inflorescence}</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-emerald-600 mb-2">Uso y Aplicaciones</h3>
+                            <p class="text-gray-600 text-base sm:text-lg">{plant.usage}</p>
+                        </div>
+
+                        {plant.notes && (
+                            <div>
+                                <h3 class="text-xl font-semibold text-emerald-600 mb-2">Notas Adicionales</h3>
+                                <p class="text-gray-600 text-base sm:text-lg">{plant.notes}</p>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</Layout>
