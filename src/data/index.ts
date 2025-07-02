@@ -215,7 +215,7 @@ export const plants: Plant[] = [
     "usedParts": ["Semilla (grano)"],
     "usage": "Para la alimentación humana y animal, y producción para creación de productos derivados del maíz como: la harina, aceite de maíz, maicena, etc.",
     "notes": "El maíz es una planta rica en almidón, proteínas, grasas y vitaminas (Del grupo B y C), y minerales como hierro, fosforo, magnesio y cobre.",
-    "imageUrl": "/9.png"
+    "imageUrl": "/9-.webp"
   },
   {
     "id": "leucaena-leucocephala",
@@ -307,7 +307,8 @@ export const plants: Plant[] = [
     },
     "usedParts": ["Semilla", "flor"],
     "usage": "Se extrae el aceite de sus semillas, y se comercializa en el ámbito alimenticio, sus semillas también pueden ser consumidas como snack o como un complemento de la comida.",
-    "notes": "El girasol es propenso a numerosas enfermedades y plagas, así como a daños causados por aves y roedores. Esto limita su cultivo a pequeña escala y con bajos insumos."
+    "notes": "El girasol es propenso a numerosas enfermedades y plagas, así como a daños causados por aves y roedores. Esto limita su cultivo a pequeña escala y con bajos insumos.",
+    "imageUrl": "/13.jfif",
   },
   {
     "id": "glycine-max",
@@ -326,7 +327,8 @@ export const plants: Plant[] = [
     },
     "usedParts": ["Semilla"],
     "usage": "La soya es utilizada por su aporte proteínico también como alimento para animales, en forma de harina de soya. Su gran valor proteico lo hace un gran sustituto de la carne en culturas veganas.",
-    "notes": "Al igual que muchas leguminosas, la soya tiene la capacidad de fijar el nitrógeno atmosférico al suelo, debido a la presencia de bacterias simbióticas del grupo de los rizobios."
+    "notes": "Al igual que muchas leguminosas, la soya tiene la capacidad de fijar el nitrógeno atmosférico al suelo, debido a la presencia de bacterias simbióticas del grupo de los rizobios.",
+    "imageUrl": "/14.jfif",
   },
   {
     "id": "phaseolus-vulgaris",
@@ -345,7 +347,8 @@ export const plants: Plant[] = [
     },
     "usedParts": ["Semilla"],
     "usage": "El frijol común es una fuente esencial de proteínas, minerales y vitaminas para muchas poblaciones humanas. Las vainas inmaduras pueden ser consumidas frescas y se conservan fácilmente mediante congelación, enlatado o deshidratación. Las vainas maduras y las semillas se secan. El frijol puede consumirse hervido, horneado, frito o molido para obtener harina.",
-    "notes": "La Phaseolus vulgaris es menos eficiente en la fijación de nitrógeno que otras leguminosas, pero se conoce que fija hasta 125kg de Nitrógeno por hectárea. Pueden nodular con varios rizobios."
+    "notes": "La Phaseolus vulgaris es menos eficiente en la fijación de nitrógeno que otras leguminosas, pero se conoce que fija hasta 125kg de Nitrógeno por hectárea. Pueden nodular con varios rizobios.",
+    "imageUrl": "/15.jpg",
   },
   {
     "id": "musa-paradisiaca",
@@ -364,7 +367,8 @@ export const plants: Plant[] = [
     },
     "usedParts": ["Fruto", "hoja"],
     "usage": "Su fruto es muy consumido, ya sea maduro o verde, y también es utilizado en diversas preparaciones culinarias.",
-    "notes": "El momento de la plantación depende del clima de la zona; se necesita un buen nivel de humedad en la fase inicial de crecimiento, así como evitar toda costa el anegamiento."
+    "notes": "El momento de la plantación depende del clima de la zona; se necesita un buen nivel de humedad en la fase inicial de crecimiento, así como evitar toda costa el anegamiento.",
+    "imageUrl": "/16.webp",
   },
   {
     "id": "eleusine-indica",
@@ -382,45 +386,109 @@ export const plants: Plant[] = [
     },
     "usedParts": ["Hoja"],
     "usage": "Puede ser utilizado como forraje. Es apetecible para el ganado en su etapa joven. Se puede utilizar para heno grueso o ensilado. Las plántulas pueden consumirse crudas o cocidas como verdura, y las semillas pueden cocerse enteras o molerse para obtener harina.",
-    "notes": "Prospera en suelos arenosos y ricos en nitrógeno. Es una amenaza en tierras de cultivo, en césped, plantaciones y viveros."
+    "notes": "Prospera en suelos arenosos y ricos en nitrógeno. Es una amenaza en tierras de cultivo, en césped, plantaciones y viveros.",
+    "imageUrl": "/17.jpg",
+  },
+  // {
+  //   "id": "pasto-nativo",
+  //   "scientificName": "Pasto Nativo",
+  //   "commonNames": ["Pasto nativo"],
+  //   "placeOfOrigin": "No especificado",
+  //   "taxonomy": "No especificado",
+  //   "morphology": {
+  //     "generalDescription": "No se proporciona descripción específica en el documento."
+  //   },
+  //   "usedParts": [],
+  //   "usage": "No se especifica en el documento.",
+  //   "notes": "No se proporciona información adicional en el documento.",
+  //   "imageUrl": "/18.jfif",
+  // },
+  // {
+  //   "id": "pasto-corte",
+  //   "scientificName": "Pasto de Corte",
+  //   "commonNames": ["Pasto de corte"],
+  //   "placeOfOrigin": "No especificado",
+  //   "taxonomy": "No especificado",
+  //   "morphology": {
+  //     "generalDescription": "No se proporciona descripción específica en el documento."
+  //   },
+  //   "usedParts": [],
+  //   "usage": "No se especifica en el documento.",
+  //   "notes": "No se proporciona información adicional en el documento.",
+  //   "imageUrl": "/19.jfif",
+  // },
+  // {
+  //   "id": "pasto-hibrido",
+  //   "scientificName": "Pasto Híbrido o Mejorado",
+  //   "commonNames": ["Pasto híbrido", "pasto mejorado"],
+  //   "placeOfOrigin": "No especificado",
+  //   "taxonomy": "No especificado",
+  //   "morphology": {
+  //     "generalDescription": "No se proporciona descripción específica en el documento."
+  //   },
+  //   "usedParts": [],
+  //   "usage": "No se especifica en el documento.",
+  //   "notes": "No se proporciona información adicional en el documento.",
+  //   "imageUrl": "/20.png",
+  // }
+  {
+    "id": "pennisetum-purpureum-x-typhoides",
+    "scientificName": "Pennisetum purpureum x Pennisetum typhoides",
+    "commonNames": ["King grass morado", "pasto hindú"],
+    "placeOfOrigin": "África",
+    "taxonomy": "Poaceae",
+    "morphology": {
+      "generalDescription": "Es una gramínea perenne, de crecimiento es erecto y puede medir 2.5–3m de alto. Su tallo se parece al de la caña de azúcar y puede alcanzar hasta 2cm de diámetro, y sus hojas son alargadas y anchas las cuales presentan una coloración verdosa clara cuando están jóvenes y verdosa oscura cuando se maduran, además presentan vellosidades poco alargadas y muy suaves.",
+      "leaves": "",
+      "inflorescence": "",
+      "flower": "",
+      "stem": "",
+      "root": "",
+      "fruit": ""
+    },
+    "usedParts": ["Hoja"],
+    "usage": "Se puede ofrecer como forraje picado a los animales, también se puede ofrecer directamente al ganado en el potrero con la condición que después de pastoreo se debe homogeneizar el corte que dejaron los animales con machete, lo que garantiza un mejor crecimiento del pasto en el siguiente corte.",
+    "notes": "Con cortes cada 75 días puede llegar a producir 20–28 toneladas de materia seca sin fertilizar y cuando se fertiliza con 200 kg por hectárea de nitrógeno puede alcanzar producción de 38 toneladas por hectárea año. Se recomienda cortar cada 60 a 75 días, cuando alcanza su mayor valor nutricional y biomasa. Lugar de Recolección: Estado Bolívar, municipio Piar, Upata. Fecha de Recolección: 16/06/2025.",
+    "imageUrl": "/18.jfif",
   },
   {
-    "id": "pasto-nativo",
-    "scientificName": "Pasto Nativo",
-    "commonNames": ["Pasto nativo"],
-    "placeOfOrigin": "No especificado",
-    "taxonomy": "No especificado",
+    "id": "paspalum-conjugatum",
+    "scientificName": "Paspalum conjugatum",
+    "commonNames": ["Maleza hierba agria"],
+    "placeOfOrigin": "América tropical y subtropical",
+    "taxonomy": "Poaceae",
     "morphology": {
-      "generalDescription": "No se proporciona descripción específica en el documento."
+      "generalDescription": "Es una planta perenne estoloníferas, con estolones que alcanzan a medir de largo hasta 3m; presenta una serie de tallos ramificados, sus ramas son erectas y pueden medir de largo entre 0.2–0.5m; con nudos y entrenudos glabros. Su flor es solitaria, terminal y mide entre 6-17cm de largo.",
+      "leaves": "",
+      "inflorescence": "",
+      "flower": "",
+      "stem": "",
+      "root": "",
+      "fruit": ""
     },
-    "usedParts": [],
-    "usage": "No se especifica en el documento.",
-    "notes": "No se proporciona información adicional en el documento."
+    "usedParts": ["Hoja"],
+    "usage": "A veces es utilizada como césped. A pesar de ser considerada una maleza es una especie forrajera, sobre todo en plantaciones de cocotero y puede producir casi 20 t/ha sin fertilización. También se utiliza con fines medicinales.",
+    "notes": "Se debe mantener bajo pastoreo intensivo para evitar que sus semillas maduren, ya que después de su floración bajara su valor nutricional, además las semillas se adhieren a la garganta del ganado y estos corren el riesgo de atragantarse. Puede florecer y fructificar durante todo el año en climas tropicales húmedos. Lugar de Recolección: Estado Bolívar, municipio Caroni, Paratepuy. Fecha de Recolección: 06/06/2025.",
+    "imageUrl": "/19.jfif",
   },
   {
-    "id": "pasto-corte",
-    "scientificName": "Pasto de Corte",
-    "commonNames": ["Pasto de corte"],
-    "placeOfOrigin": "No especificado",
-    "taxonomy": "No especificado",
+    "id": "cynodon-nlemfuensis",
+    "scientificName": "Cynodon nlemfuensis",
+    "commonNames": ["Pasto estrella", "Estrella Africana", "Tumbabobos", "Pasto Alicia"],
+    "placeOfOrigin": "Originaria del este de África",
+    "taxonomy": "Poaceae",
     "morphology": {
-      "generalDescription": "No se proporciona descripción específica en el documento."
+      "generalDescription": "Es una Gramínea perenne rizomatosa y estolonífera de profundas raíces, sus estolones son leñosos, con tallos que pueden medir de alto unos 40cm y de diámetro cerca de la base unos 1–1.5 mm. Presenta hojas de color rojo o verdes.",
+      "leaves": "",
+      "inflorescence": "",
+      "flower": "",
+      "stem": "",
+      "root": "",
+      "fruit": ""
     },
-    "usedParts": [],
-    "usage": "No se especifica en el documento.",
-    "notes": "No se proporciona información adicional en el documento."
-  },
-  {
-    "id": "pasto-hibrido",
-    "scientificName": "Pasto Híbrido o Mejorado",
-    "commonNames": ["Pasto híbrido", "pasto mejorado"],
-    "placeOfOrigin": "No especificado",
-    "taxonomy": "No especificado",
-    "morphology": {
-      "generalDescription": "No se proporciona descripción específica en el documento."
-    },
-    "usedParts": [],
-    "usage": "No se especifica en el documento.",
-    "notes": "No se proporciona información adicional en el documento."
+    "usedParts": ["Hoja"],
+    "usage": "Se utiliza en pastoreo y puede sostener 4UA/ha, cuando se le deja descansar 27 días, también se puede convertir en heno de las cual se puede obtener por hectárea hasta 500 pacas de 10 kilos.",
+    "notes": "Ayuda a disminuir la resistencia a la penetración y aumenta la infiltración de agua en el suelo y ayuda al control de malezas y cobertura y conservación del suelo. Se caracteriza por un rebrote con 6 a 8 hojas verdes antes del siguiente pastoreo, lo que indica su madurez fisiológica. Lugar de Recolección: Estado Delta Amacuro, municipio Casacoima, El Triunfo. Fecha de Recolección: 10/06/2025.",
+    "imageUrl": "/20.png",
   }
 ]
