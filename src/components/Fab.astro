@@ -1,0 +1,39 @@
+---
+
+---
+<button
+    id="scrollToTopBtn"
+    class="fixed bottom-6 right-6 bg-emerald-600 dark:bg-primary-500 text-white
+        cursor-pointer p-4 rounded-lg shadow-lg 
+        z-50 transition hover:bg-emerald-700
+        hover:opacity-95 opacity-0 pointer-events-none items-center flex justify-center"
+    aria-label="Scroll to top"
+>
+  <span class="material-icons">
+    arrow_upward
+  </span>
+</button>
+
+<script>
+  const scrollBtn = document.getElementById('scrollToTopBtn');
+
+  if(scrollBtn){
+    window.addEventListener('scroll', () => {
+        const scrollY = window.scrollY;
+        const screenHeight = window.innerHeight;
+
+        if (scrollY > screenHeight * 1) {
+        scrollBtn.classList.remove('opacity-0', 'pointer-events-none');
+        } else {
+        scrollBtn.classList.add('opacity-0', 'pointer-events-none');
+        }
+    });
+
+    scrollBtn.addEventListener('click', () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        });
+    });
+  }
+</script>
