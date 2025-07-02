@@ -5,16 +5,19 @@ interface Props{
     plant: Plant;
 }
 ---
-<div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-    <img alt="A lush green fern in a pot" class="w-full h-64 object-cover rounded-md mb-4" 
+<div class="bg-[#DAF2E5] p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between">
+    <img alt="Plant image" class="w-full h-64 object-cover rounded-md mb-4" 
         src={Astro.props.plant.imageUrl || ''}
     />
-    <h3 class="text-xl font-semibold text-emerald-700 mb-4">{Astro.props.plant.scientificName || ''}</h3>
-    <p class="text-gray-600 mb-8 text-sm">{Astro.props.plant.morphology.generalDescription || ''}</p>
+    <div class="flex flex-col">
+        <h3 class="text-xl font-semibold text-emerald-700 mb-4">{Astro.props.plant.scientificName || ''}</h3>
+        <p class="text-gray-600 mb-8 text-sm">{Astro.props.plant.morphology.generalDescription || ''}</p>
+    </div>
     <!-- <a class="text-emerald-600 font-bold text-lg cursor-pointer" href="">
         Ver más
     </a> -->
-    <a class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-6 rounded-md text-base transition duration-300" href="#">
+    <a class="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 px-6 
+        rounded-md text-base transition duration-300 w-full lg:w-1/2 text-center" href={`/plant/${Astro.props.plant.id}`}>
         Ver más
     </a>
 </div>

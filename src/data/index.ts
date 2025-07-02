@@ -24,7 +24,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "El pasto humidicola se utiliza principalmente como pasto. Sus hojas pueden ser fibrosas y duras, pero son apetecibles para el ganado.",
     "notes": "Se adapta a suelos húmedos y pobres. Tiene la capacidad de soportar periodos de sequía (3-4 meses), pero su crecimiento es más lento cuando la sequía dura más de 6 meses.",
-    "imageUrl": ""
+    "imageUrl": "/brachiaria-humidicola.webp"
   },
   {
     "id": "brachiaria-decumbens",
@@ -51,7 +51,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "Es un forraje valioso utilizado para pasturas permanentes. Es de alto rendimiento y forma rodales bajos y frondosos que se dan bien en suelos infértiles.",
     "notes": "El pasto señal tiene un sistema de raíces profundo que extrae eficazmente P y N del suelo. Puede crecer una alta gama de suelos, incluidos suelos poco fértiles con un pH bajo.",
-    "imageUrl": ""
+    "imageUrl": "/brachiaria-decumbens.png"
   },
   {
     "id": "moringa-oleifera",
@@ -290,4 +290,137 @@ export const plants: Plant[] = [
     "notes": "No soporta capacidad de carga alta, no compite muy bien con malezas y su semilla presenta una baja germinación y valor nutricional medio. Alcanza una germinación de 15% a los 90 días posteriores a su cosecha y con el tiempo ese porcentaje se hace más bajo. El pasto jaragua presenta un contenido de proteína de 9.16%, una digestibilidad de 70.16% y 1.8 Mcal de energía metabolizable.",
     "imageUrl": ""
   },
+  {
+    "id": "helianthus-sp",
+    "scientificName": "Helianthus sp.",
+    "commonNames": ["Girasol", "girasol común", "mirasol"],
+    "placeOfOrigin": "Originario de América central y del norte",
+    "taxonomy": "Asteraceae",
+    "morphology": {
+      "generalDescription": "Es una hierba erecta e hirsuta, de 1-3,5m de altura. Es una planta anual o perenne. Las cabezuelas del girasol siguen el ciclo solar durante el periodo de polinización y permanecen orientadas hacia el este.",
+      "leaves": "Alternas, grandes y con forma de corazón (cordiformes), bordes aserrados, con nervaduras prominentes y una superficie áspera.",
+      "inflorescence": "Compuesta entre 700-300 pequeñas flores. El capítulo puede medir de 5 a 50cm de diámetro dependiendo de la variedad de girasol. Está compuesta por dos tipos: Liguladas (estériles con corola semejante a un pétalo, dispuestas radialmente en filas de color amarillo y naranja) y Tubulosas (de color pardo amarillento que llevan los órganos de reproducción).",
+      "flower": "Numerosas flores tubulares diminutas que forman un disco.",
+      "stem": "Su tallo puede alcanzar una altura variable desde los 60-220cm, son erectos, cilíndricos y fuertes.",
+      "root": "Pivotante fuerte que alcanza los 3m de altura, lo que le confiere propiedades tolerantes a la sequía.",
+      "fruit": "Su fruto es denominado aquenio o pipa, es un fruto seco, con una cáscara dura y protectora que envuelve a la semilla. La semilla denominada grano o almendra está recubierta por una fina telilla."
+    },
+    "usedParts": ["Semilla", "flor"],
+    "usage": "Se extrae el aceite de sus semillas, y se comercializa en el ámbito alimenticio, sus semillas también pueden ser consumidas como snack o como un complemento de la comida.",
+    "notes": "El girasol es propenso a numerosas enfermedades y plagas, así como a daños causados por aves y roedores. Esto limita su cultivo a pequeña escala y con bajos insumos."
+  },
+  {
+    "id": "glycine-max",
+    "scientificName": "Glycine Max",
+    "commonNames": ["Soya", "soja"],
+    "placeOfOrigin": "Originaria del este de Asia",
+    "taxonomy": "Fabaceae",
+    "morphology": {
+      "generalDescription": "Es una leguminosa erecta, tupida y peluda que suele crecer de 2-6 pies de altura.",
+      "leaves": "Sus hojas son compuestas (formadas por dos o más foliolos discretos). Su disposición es alterna, con bordes enteros (no tienen dientes ni lóbulos).",
+      "inflorescence": "Es un racimo de hasta 8 flores.",
+      "flower": "Blancas a púrpura-rosa y hojas trifoliadas; sus flores son pequeñas, parecidas a la de los guisantes.",
+      "stem": "Posee un tallo principal ramificado con un crecimiento continuo, produciendo nodos cada cuatro días.",
+      "root": "Raíz pivotante con abundantes ramificaciones laterales. Su raíz pivotante puede alcanzar una profundidad de 2m, y sus raíces laterales alcanzan 2.5m de profundidad.",
+      "fruit": "Es una vaina peluda que crece en grupos de 3-5. Cada vaina contiene de 2-4 semillas."
+    },
+    "usedParts": ["Semilla"],
+    "usage": "La soya es utilizada por su aporte proteínico también como alimento para animales, en forma de harina de soya. Su gran valor proteico lo hace un gran sustituto de la carne en culturas veganas.",
+    "notes": "Al igual que muchas leguminosas, la soya tiene la capacidad de fijar el nitrógeno atmosférico al suelo, debido a la presencia de bacterias simbióticas del grupo de los rizobios."
+  },
+  {
+    "id": "phaseolus-vulgaris",
+    "scientificName": "Phaseolus Vulgaris",
+    "commonNames": ["Caraota", "frijol común", "frijol", "judía verde", "frijol rojo", "judía de mata", "judía verde", "judía de corredor"],
+    "placeOfOrigin": "Proviene de América central y del Sur",
+    "taxonomy": "Fabaceae",
+    "morphology": {
+      "generalDescription": "Herbácea anual de estación cálida, altamente polimórfica. Hay dos tipos de plantas: arbustos herbáceos erectos, de hasta 20-60cm de altura; y enredaderas trepadoras de hasta 2-5m de largo.",
+      "leaves": "Las que nacen en pecíolos largos y verdes, son de color verde o morado y trifoliadas: Los foliolos miden entre 6-15cm de largo y entre 3-11cm de ancho.",
+      "inflorescence": "Son axilares o terminales, en racimos de 15-35cm de largo.",
+      "flower": "Están dispuestas en pares o solitarias a lo largo del raquis, de color blanco o púrpura y típicamente papilionáceas. Una vez polinizada, cada flor da lugar a una vaina.",
+      "stem": "Los tallos de los tipos arbustivos son bastante delgados, pubescentes y muy ramificados.",
+      "root": "Tiene una raíz pivotante con muchas raíces adventicias.",
+      "fruit": "Las vainas pueden contener de 4-12 semillas. Las semillas miden 0,5-2cm de largo, tienen forma de riñón y su color es muy variable puede ser: blanco, rojo, verde, tostado, púrpura, gris o negro."
+    },
+    "usedParts": ["Semilla"],
+    "usage": "El frijol común es una fuente esencial de proteínas, minerales y vitaminas para muchas poblaciones humanas. Las vainas inmaduras pueden ser consumidas frescas y se conservan fácilmente mediante congelación, enlatado o deshidratación. Las vainas maduras y las semillas se secan. El frijol puede consumirse hervido, horneado, frito o molido para obtener harina.",
+    "notes": "La Phaseolus vulgaris es menos eficiente en la fijación de nitrógeno que otras leguminosas, pero se conoce que fija hasta 125kg de Nitrógeno por hectárea. Pueden nodular con varios rizobios."
+  },
+  {
+    "id": "musa-paradisiaca",
+    "scientificName": "Musa Paradisiaca",
+    "commonNames": ["Plátano", "platanera", "bananero", "banana", "guineo", "cambur", "topocho", "banano"],
+    "placeOfOrigin": "Proveniente de la región Indomalaya",
+    "taxonomy": "Musaceae",
+    "morphology": {
+      "generalDescription": "Es una megaforbia, una hierba perenne de gran tamaño. Como las demás especies de Musa, carece de un verdadero tronco. En su lugar posee vainas foliares que desarrollan formando estructuras llamadas pseudotallos, similares a fustes verticales de hasta 30cm de diámetro basal que no son leñosos, y alcanzan los 7m de altura.",
+      "leaves": "Sus hojas son lisas, tiernas, oblongas, con el ápice trunco y la base redonda o ligeramente cordiforme, verdes por la haz y más claras, con márgenes lisos y las nervaduras pinnadas, amarillentas o verdes. Dispuestas en espiral, se despliegan hasta alcanzar 3m de largo y 90cm de ancho.",
+      "inflorescence": "Emerge del centro de los pseudotallos, semeja un enorme capullo púrpura o violáceo, con el pedúnculo y el raquis glabros. Al abrirse, revela una estructura en forma de espiga, sobre cuyo tallo axial se disponen en espiral hileras dobles de flores.",
+      "flower": "Las primeras 5-15 hileras son de flores femeninas, ricas en néctar; en ellas el tépalo compuesto alcanza los 5cm de largo y los 1.2cm de ancho; es blanco. Su parte superior es amarilla a naranja, con dientes de unos 5mm de largo.",
+      "stem": "No tiene un tallo verdadero, posee un pseudotallo, con apariencia de tronco, pero no es leñoso.",
+      "root": "Es un rizoma, la cual produce raíces adventicias fibrosas.",
+      "fruit": "Es una falsa baya epígina de 7-30cm de largo y hasta 5 de diámetro, que forma un racimo compacto. Cubierta por un pericarpo coriáceo verde inmaduro, y amarillo maduro."
+    },
+    "usedParts": ["Fruto", "hoja"],
+    "usage": "Su fruto es muy consumido, ya sea maduro o verde, y también es utilizado en diversas preparaciones culinarias.",
+    "notes": "El momento de la plantación depende del clima de la zona; se necesita un buen nivel de humedad en la fase inicial de crecimiento, así como evitar toda costa el anegamiento."
+  },
+  {
+    "id": "eleusine-indica",
+    "scientificName": "Eleusine Indica",
+    "commonNames": ["Pata de gallina", "pata de gallo", "yerba de camino", "yerba dulce", "hierba dulce", "grama dulce", "grama de orqueta", "natajo dulce"],
+    "placeOfOrigin": "Originaria de África y Asia",
+    "taxonomy": "Poaceae",
+    "morphology": {
+      "generalDescription": "Planta perenne en penacho de corta vida que se ramifica desde la base y puede tener hábito erecto, decumbente o postrado.",
+      "leaves": "Son alternas y el limbo es plano, lineal a veces plegado, de 5-35cm de largo y 4-6mm de ancho.",
+      "inflorescence": "Las ramas de la inflorescencia pueden medir entre 2-10cm de largo, dispuestas en forma digitada, pero con frecuencia una o dos se sitúan más abajo.",
+      "flower": "Espiguillas de 3-7mm de largo, compuestas de 4-9 flores densamente apiñadas sobre un raquis angostamente alado o sin alas, palea un poco más corta que la lema, lema de 2.5-4mm de largo.",
+      "stem": "Erecto o ascendente.",
+      "root": "Raíces cortas, pero con un sistema radicular particularmente resistente y difícil de arrancar."
+    },
+    "usedParts": ["Hoja"],
+    "usage": "Puede ser utilizado como forraje. Es apetecible para el ganado en su etapa joven. Se puede utilizar para heno grueso o ensilado. Las plántulas pueden consumirse crudas o cocidas como verdura, y las semillas pueden cocerse enteras o molerse para obtener harina.",
+    "notes": "Prospera en suelos arenosos y ricos en nitrógeno. Es una amenaza en tierras de cultivo, en césped, plantaciones y viveros."
+  },
+  {
+    "id": "pasto-nativo",
+    "scientificName": "Pasto Nativo",
+    "commonNames": ["Pasto nativo"],
+    "placeOfOrigin": "No especificado",
+    "taxonomy": "No especificado",
+    "morphology": {
+      "generalDescription": "No se proporciona descripción específica en el documento."
+    },
+    "usedParts": [],
+    "usage": "No se especifica en el documento.",
+    "notes": "No se proporciona información adicional en el documento."
+  },
+  {
+    "id": "pasto-corte",
+    "scientificName": "Pasto de Corte",
+    "commonNames": ["Pasto de corte"],
+    "placeOfOrigin": "No especificado",
+    "taxonomy": "No especificado",
+    "morphology": {
+      "generalDescription": "No se proporciona descripción específica en el documento."
+    },
+    "usedParts": [],
+    "usage": "No se especifica en el documento.",
+    "notes": "No se proporciona información adicional en el documento."
+  },
+  {
+    "id": "pasto-hibrido",
+    "scientificName": "Pasto Híbrido o Mejorado",
+    "commonNames": ["Pasto híbrido", "pasto mejorado"],
+    "placeOfOrigin": "No especificado",
+    "taxonomy": "No especificado",
+    "morphology": {
+      "generalDescription": "No se proporciona descripción específica en el documento."
+    },
+    "usedParts": [],
+    "usage": "No se especifica en el documento.",
+    "notes": "No se proporciona información adicional en el documento."
+  }
 ]

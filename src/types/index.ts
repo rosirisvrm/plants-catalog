@@ -19,3 +19,9 @@ export interface Plant {
   notes: string;
   imageUrl?: string; // URL of the plant image
 }
+
+export type Tip = {
+  icon: string;
+  title: string;
+  text: string;
+}
