@@ -24,7 +24,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "El pasto humidicola se utiliza principalmente como pasto. Sus hojas pueden ser fibrosas y duras, pero son apetecibles para el ganado.",
     "notes": "Se adapta a suelos húmedos y pobres. Tiene la capacidad de soportar periodos de sequía (3-4 meses), pero su crecimiento es más lento cuando la sequía dura más de 6 meses.",
-    "imageUrl": "/brachiaria-humidicola.webp"
+    "imageUrl": "/1.webp"
   },
   {
     "id": "brachiaria-decumbens",
@@ -51,7 +51,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "Es un forraje valioso utilizado para pasturas permanentes. Es de alto rendimiento y forma rodales bajos y frondosos que se dan bien en suelos infértiles.",
     "notes": "El pasto señal tiene un sistema de raíces profundo que extrae eficazmente P y N del suelo. Puede crecer una alta gama de suelos, incluidos suelos poco fértiles con un pH bajo.",
-    "imageUrl": "/brachiaria-decumbens.png"
+    "imageUrl": "/2.png"
   },
   {
     "id": "moringa-oleifera",
@@ -77,7 +77,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja", "Semillas", "Raíz"],
     "usage": "Todas las partes de la moringa se consumen de alimento. Las hojas de la moringa son una valiosa fuente de proteínas para los rumiantes, pero su palatabilidad es moderada; se utilizan en la cría de conejos a pequeña escala. A nivel industrial, el aceite de moringa tiene diversas aplicaciones industriales como: en la perfumería, pinturas y lubricantes.",
     "notes": "La moringa se puede cultivar en rodales puros o en mezclas con muchas otras especies como la leucaena y guacuma.",
-    "imageUrl": ""
+    "imageUrl": "/3.jfif"
   },
   {
     "id": "manihot-esculenta",
@@ -103,7 +103,7 @@ export const plants: Plant[] = [
     "usedParts": ["Raíz", "Hojas"],
     "usage": "Es utilizada para la alimentación humana, consumiéndose hervida, frita o en preparaciones más complejas como arepas o casabe. También es utilizada en el ámbito de la alimentación animal, se le proporciona como forraje al ganado.",
     "notes": "El follaje de yuca (Tallo y hojas) puede producir más de 6t de proteína cruda/hectárea/año si siguen practicas agronómicas adecuadas en la cosecha.",
-    "imageUrl": ""
+    "imageUrl": "/4.jfif"
   },
   {
     "id": "cynodon-sp",
@@ -122,7 +122,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "Pueden ser utilizas normalmente para césped o forraje para el ganado.",
     "notes": "Son plantas resistentes al pisoteo.",
-    "imageUrl": ""
+    "imageUrl": "/5.jfif"
   },
   {
     "id": "canavalia-rosae",
@@ -147,7 +147,7 @@ export const plants: Plant[] = [
     "usedParts": ["Semilla", "Hoja"],
     "usage": "Los frijoles que proporciona son comestibles cuando son cocidas, pero no se usan comúnmente; una especie cultivada más que todo para fijar arena.",
     "notes": "Tienen la capacidad de fijar el nitrógeno al suelo a partir de sus raíces.",
-    "imageUrl": ""
+    "imageUrl": "/6.jpeg"
   },
   {
     "id": "pennisetum-purpureum",
@@ -173,7 +173,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "Es un forraje esencial, usado especialmente para la alimentación del ganado vacuno y los búfalos; se usa mucho para sistemas de corte y acarreo, y para la alimentación en establos, ensilado o heno.",
     "notes": "Produce pocas semillas y se propaga principalmente vegetativamente a través de esquejes de tallo que constan de al menos 3 nudos, 2 de los cuales se entierran en hileras.",
-    "imageUrl": ""
+    "imageUrl": "7.jfif"
   },
   {
     "id": "saccharum-officiarum",
@@ -195,7 +195,7 @@ export const plants: Plant[] = [
     "usedParts": ["Tallo"],
     "usage": "La caña de azúcar puede usarse entera como forraje verde y proporcionar un valioso forraje durante la temporada seca. El forraje se caña de azúcar se puede utilizar para pastorearse, cortarse para sistema de corte y acarreo o picarse directamente en el campo para su posterior uso verde o para ensilado.",
     "notes": "Existen variedades de caña de azúcar, algunas presentan un contenido muy alto de fibra, lo que podría resultar en un valor nutritivo muy variable para el ganado.",
-    "imageUrl": ""
+    "imageUrl": "8.jfif"
   },
   {
     "id": "zea-maiz",
@@ -215,7 +215,7 @@ export const plants: Plant[] = [
     "usedParts": ["Semilla (grano)"],
     "usage": "Para la alimentación humana y animal, y producción para creación de productos derivados del maíz como: la harina, aceite de maíz, maicena, etc.",
     "notes": "El maíz es una planta rica en almidón, proteínas, grasas y vitaminas (Del grupo B y C), y minerales como hierro, fosforo, magnesio y cobre.",
-    "imageUrl": ""
+    "imageUrl": "/9.png"
   },
   {
     "id": "leucaena-leucocephala",
@@ -240,7 +240,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja", "Semilla"],
     "usage": "Es una planta silvestre, cultivada en varios países, sus legumbres son vendidas en todo el país por las semillas frescas que se utilizan como condimento, tanto crudas como cocidas; y sus hojas tiernas se consumen como quelite.",
     "notes": "Es una planta de crecimiento rápido; su edad llega a 50 años. Generalmente florece y fructifica todo el año, dependiendo de la disponibilidad de agua.",
-    "imageUrl": ""
+    "imageUrl": "/10.jfif"
   },
   {
     "id": "panicum-maximum",
@@ -264,7 +264,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "El pasto guineo es apto para pastoreo, siega y acarreo, ensilado y heno. Se han desarrollado numerosos cultivares de pasto guinea para diferentes propósitos y situaciones agronómicas.",
     "notes": "El pasto guineo crece mejor con una precipitación anual superior a 1000mm con un periodo seco de no más de 4-5 meses. La temperatura diurna anual promedio debe oscilar entre 19,1 grados centígrados y 22,9 grados centígrados. Los tipos pequeños son más tolerantes a temperaturas frías que los tipos altos. Prefiere suelos bien drenados, húmedos y fertiles. Es tolerante a las heladas ligeras y el bajo pH del suelo si el drenaje es bueno.",
-    "imageUrl": ""
+    "imageUrl": "/11.jpg"
   },
   {
     "id": "hyparrhenia-rufa",
@@ -288,7 +288,7 @@ export const plants: Plant[] = [
     "usedParts": ["Hoja"],
     "usage": "Generalmente, esta especie es utilizada en el sistema de Pastoreo continua pero también se puede aprovechar mejor en sistemas de pastoreo rotacional con 4-5 días de ocupación, 42 días de descanso, y una altura de corte entre 40-50cm, a pesar de su baja nutricionalidad y baja capacidad de carga, tiene la capacidad de fertilizar los suelos.",
     "notes": "No soporta capacidad de carga alta, no compite muy bien con malezas y su semilla presenta una baja germinación y valor nutricional medio. Alcanza una germinación de 15% a los 90 días posteriores a su cosecha y con el tiempo ese porcentaje se hace más bajo. El pasto jaragua presenta un contenido de proteína de 9.16%, una digestibilidad de 70.16% y 1.8 Mcal de energía metabolizable.",
-    "imageUrl": ""
+    "imageUrl": "/12.jpg"
   },
   {
     "id": "helianthus-sp",
